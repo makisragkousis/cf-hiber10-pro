@@ -34,7 +34,7 @@ public class Main {
 //            List<Course> kapetisCourses = em.createQuery(query3, Course.class).getResultList();
 //            kapetisCourses.forEach(System.out::println);
 
-            // Select courses of Καπέτης SQL Injection free
+            // Select courses of Γιαννούτσου SQL Injection free
 //            String query4 = "SELECT c FROM Course c WHERE c.teacher.lastname = :lastname";
 //            List<Course> courses4 = em
 //                    .createQuery(query4, Course.class)
@@ -42,14 +42,14 @@ public class Main {
 //                    .getResultList();
 //            courses4.forEach(System.out::println);
 
-            // Select teacher thet teach Java
+            // Select teachers that teach Java
 //            String query5 = "SELECT t FROM Teacher t JOIN t.courses c WHERE c.title = :title";
 //            List<Teacher> teachers5 = em.createQuery(query5, Teacher.class)
 //                    .setParameter("title", "Java")
 //                    .getResultList();
 //            teachers5.forEach(System.out::println);
 
-            // Select teacher lastname and the count of his courses
+            // Select teachers lastnames and the count of their courses
 //            String query6 = "SELECT t.id, t.lastname, COUNT(c) FROM Teacher t LEFT JOIN t.courses c GROUP BY t.id";
 //            List<Object[]> teachers6 = em.createQuery(query6, Object[].class).getResultList();
 //
